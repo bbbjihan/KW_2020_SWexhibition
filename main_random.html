@@ -5,11 +5,12 @@
 <script src="mm_script.js">
 </script>
 <script>//타이머
+  var random_num = Math.floor(1+Math.random()*46)
   function Timer() {
   setTimeout("locateKap()",4500);
    }
   function locateKap(){
-   location.replace("result_random.html");
+    location.replace(random_num + ".html");
   }
 </script>
 <style>
