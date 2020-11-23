@@ -129,7 +129,7 @@ function move(n,m){
   location.replace( n +".html");
 }
 function version_(){
-  document.all.version.innerHTML = "<p>ver.1.1(2020-11-23)<br>법학부 이시연, 이다영, 김혜미, 박지한</p>";
+  document.all.version.innerHTML = '<p>ver.1.1(2020-11-23)<div id="insta_link" onclick="window.open('+"'https://www.instagram.com/si_yeon_27/'"+')"><p>법학부 이시연(@si_yeon_27)</p></div><div id="insta_link" onclick="window.open('+"'https://www.instagram.com/o.my.vong_/'"+')"><p>법학부 이다영(@o.my.vong_)</p></div><div id="insta_link" onclick="window.open('+"'https://www.instagram.com/haem_20/'"+')"><p>법학부 김혜미(@haem_20)</p></div><div id="insta_link" onclick="window.open('+"'https://www.instagram.com/bbbjihan/'"+')"><p>법학부 박지한(@bbbjihan)</p></div>';
 }
 
 function print_listpage(){

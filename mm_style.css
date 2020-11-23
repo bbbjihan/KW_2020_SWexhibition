@@ -53,6 +53,7 @@ p {
   font-size : 15px;
   margin-bottom:0px;
   text-shadow:2px 2px 1px rgb(189,91,28);
+  text-decoration:none;
 }
 a {
   font-family: 'Jua', sans-serif;
@@ -69,17 +70,36 @@ body{
   text-align:center;
   font-size:30px;
 }
+footer{
+  text-align:center;
+}
+#version{
+  margin-top:10px;
+  color:rgb(251,229,215);
+  border-color:rgb(219,99,19);
+  width:800px;
+  position:relative;
+  left:50%;
+  transform:translateX(-50%);
+}
+#insta_link{
+  float:left;
+  width:200px;
+  margin-left:20px;
+  margin-right:20px;
+  text-decoration:none;
+  margin-left:0px;
+  margin-right:0px;
+  margin-top:0px;
+  margin-bottom:0px;
+  padding:0px;
+}
 #list_comment{
   position:relative;
   transform:translateX(20%);
   font-family: 'Nanum Pen Script', cursive;
   color:rgb(255,255,255);
   word-wrap:normal;
-}
-#version{
-  margin-top:10px;
-  text-align:center;
-  color:rgb(251,229,215);
 }
 #container {
   background-color:rgb(237,125,49);
