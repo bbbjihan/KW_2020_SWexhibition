@@ -28,14 +28,14 @@
       <div id="rest_list">
         <br>
         <div id="rest_list_box">
-          <table id="rest_table">
-            <script>rest_list(40)</script>
-          </table>
+          <script>
+          make_button([71])
+          </script>
         </div>
         <br>
       </div>
-      <div style="position:absolute;left:400px;font-family: 'Nanum Pen Script', cursive;color:rgb(255,255,255);">
-        * 식당이름을 클릭하면 지도페이지로 연결됩니다.
+      <div id="list_comment">
+        * 식당이름을 클릭하면 네이버 지도페이지로 연결됩니다.
       </div><br>
        <div id="url_1" class="url_1" onclick="location.href='main_home.html'" onmouseover=text_onmouseover_1(this) onmouseout=text_onmouseout_1(this)>
          <a>홈으로 가기</a>
@@ -43,7 +43,7 @@
        </div>
 </div>
 <footer>
-         <div id="version"><p>ver.1.0(2020-11-13)<br>법학부 이시연, 이다영, 김혜미, 박지한</p></div>
+         <div id="version"><script>version_()</script></div>
 </footer>
 </body>
 </html>

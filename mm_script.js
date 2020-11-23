@@ -124,26 +124,37 @@ var rest_info_69=["도미노", "http://naver.me/FLSLKXG5", "피자"];
 var rest_info_70=["화로상회", "http://naver.me/5sEan2d6", "고기"];
 var rest_info_71=["팔팔전어횟집", "http://naver.me/GYpBXW1I", "회"];
 
-function version_(){
-  document.all.version.innerHTML = "<p>ver.1.0(2020-11-13)<br>법학부 이시연, 이다영, 김혜미, 박지한</p>"
-}
-
-function print_listpage(){
-  var list_HTML = ""
-  for (var i = 0; i < rest_info_all.length; i++) {
-    var arrayname = rest_info_all[i]
-    list_HTML = list_HTML + '<div id="list_button"><br><div id="list_button_sentence" onclick="window.open('+"'"+eval(arrayname)[1]+"'"+')"><h5>'+ eval(arrayname)[0] +'</h5><h4>'+ eval(arrayname)[2] +'</h4></div></div>'
-  }
-  document.all.list_page_2nd.innerHTML = list_HTML
-}
-
 function move(n,m){
   n = n + Math.floor(Math.random()*m);
   location.replace( n +".html");
 }
+function version_(){
+  document.all.version.innerHTML = "<p>ver.1.1(2020-11-23)<br>법학부 이시연, 이다영, 김혜미, 박지한</p>";
+}
+
+function print_listpage(){
+  var list_HTML = "";
+  for (var i = 0; i < rest_info_all.length; i++) {
+    var arrayname = rest_info_all[i];
+    list_HTML = list_HTML + '<div id="list_button"><br><div id="list_button_sentence" onclick="window.open('+"'"+eval(arrayname)[1]+"'"+')"><h5>'+ eval(arrayname)[0] +'</h5><h4>'+ eval(arrayname)[2] +'</h4></div></div>';
+  }
+  document.all.list_page_2nd.innerHTML = list_HTML;
+}
+
 function print_menu(n){
   document.all.MENU.innerHTML = "<h3>" + menus[n] + "</h3>"
 }
+
+function make_button(buttonarray){
+  list_HTML = ""
+  for (var i = 0; i < buttonarray.length; i++) {
+    var arrayname = rest_info_all[buttonarray[i]]
+    var list_HTML = list_HTML + '<div id="list_button"><br><div id="list_button_sentence" onclick="window.open('+"'"+eval(arrayname)[1]+"'"+')"><h5>'+ eval(arrayname)[0] +'</h5><h4>'+ eval(arrayname)[2] +'</h4></div></div>'
+
+  }
+  document.all.rest_list_box.innerHTML = list_HTML;
+}
+
 function rest_list(n){
 	var list_name = rest_list_all[n];
 	var list_HTML = ""

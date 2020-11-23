@@ -275,21 +275,13 @@ body{
   transform:translateX(-50%);
 }
 #rest_list_box{
-  max-height:224px;
+  max-height:250px;
   width:730px;
   position:relative;
   left:50%;
   transform:translateX(-50%);
   overflow-y:auto;
   overflow-x:hidden;
-}
-#rest_table{
-  width:712px;
-  border-collapse : collapse;
-}
-#rest_table td{
-  height:50px;
-  border:3px solid rgb(237,125,49);
 }
 #list_page_1st{
   background-color:rgb(248,203,172);
