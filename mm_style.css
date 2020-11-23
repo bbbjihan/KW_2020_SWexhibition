@@ -69,6 +69,13 @@ body{
   text-align:center;
   font-size:30px;
 }
+#list_comment{
+  position:relative;
+  transform:translateX(20%);
+  font-family: 'Nanum Pen Script', cursive;
+  color:rgb(255,255,255);
+  word-wrap:normal;
+}
 #version{
   margin-top:10px;
   text-align:center;
