@@ -68,7 +68,7 @@ var rest_info_13=["마포연탄불고기", "http://naver.me/G4Iesm4F", "고기"]
 var rest_info_14=["중화호반닭갈비", "http://naver.me/5fEk9aZM", "닭갈비"];
 var rest_info_15=["한끼철판", "http://naver.me/xy2w80MZ", "철판볶음"];
 var rest_info_16=["할매순대국", "http://naver.me/5aI9tOgq", "국밥"];
-var rest_info_17=["베트남노상식당", "http://naver.me/GFDkel2v", "쌀국수"];
+var rest_info_17=["베트남<br>노상식당", "http://naver.me/GFDkel2v", "쌀국수"];
 var rest_info_18=["착한초밥", "http://naver.me/5KlKr48E", "초밥"];
 var rest_info_19=["여자만아구찜", "http://naver.me/5vBNobic", "아구찜"];
 var rest_info_20=["맛닭꼬", "http://naver.me/58hlFSjm", "치킨"];
@@ -78,7 +78,7 @@ var rest_info_23=["착한족발", "http://naver.me/5bawPpxM", "족발"];
 var rest_info_24=["뚜레쥬르", "http://naver.me/5jWOqPS3", "샌드위치/토스트, 브리또, 빵"];
 var rest_info_25=["밥은", "http://naver.me/GOxkCikP", "컵밥, 덮밥, 볶음밥"];
 var rest_info_26=["김가네", "http://naver.me/51gxEmoS", "분식류"];
-var rest_info_27=["그옛날 1947 왕만두", "http://naver.me/55XQV4TQ", ""];
+var rest_info_27=["그옛날1947왕만두", "http://naver.me/55XQV4TQ", ""];
 var rest_info_28=["큰집닭강정", "http://naver.me/57pGatCc", "닭강정"];
 var rest_info_29=["미식성", "http://naver.me/FLSLKldW", "짬뽕, 짜장, 볶음밥"];
 var rest_info_30=["신연", "http://naver.me/5G4W5PQT", "마라탕"];
@@ -132,7 +132,7 @@ function print_listpage(){
   var list_HTML = ""
   for (var i = 0; i < rest_info_all.length; i++) {
     var arrayname = rest_info_all[i]
-    list_HTML = list_HTML + '<div id="list_button"><div id="list_button_sentence" onclick="window.open('+"'"+eval(arrayname)[1]+"'"+')"><a>'+ eval(arrayname)[0] +'</a><h4>'+ eval(arrayname)[2] +'</h4></div></div>'
+    list_HTML = list_HTML + '<div id="list_button"><br><div id="list_button_sentence" onclick="window.open('+"'"+eval(arrayname)[1]+"'"+')"><h5>'+ eval(arrayname)[0] +'</h5><h4>'+ eval(arrayname)[2] +'</h4></div></div>'
   }
   document.all.list_page_2nd.innerHTML = list_HTML
 }
