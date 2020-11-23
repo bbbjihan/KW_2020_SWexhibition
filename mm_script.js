@@ -51,10 +51,10 @@ var rest_list_43=["윤스쿡", "셰프의 돈까스", "고씨네"];
 var rest_list_44=["쌈"];
 var rest_list_45=["착한족발"];
 var rest_list_46=["디델리", "고씨네"];
-var rest_info_0=["파리바게뜨", "http://naver.me/Fh6lTEMt", "샌드위치/토스트, 브리또, 빵, 샐러드"];
+var rest_info_0=["파리바게뜨", "http://naver.me/Fh6lTEMt", "샌드위치/토스트, 브리또, 빵"];
 var rest_info_1=["던킨도넛", "http://naver.me/Ff4xzlgB", "도넛"];
 var rest_info_2=["지지고", "http://naver.me/GpPW0ItW", "컵밥"];
-var rest_info_3=["김밥천국", "http://naver.me/GAn01waL", "도시락, 만두, 라면, 우동, 김밥, 떡볶이, 칼국수, 비빔국수/쫄면, 냉면, 덮밥, 볶음밥, 만둣국/떡국, 찌개, 부대찌개"];
+var rest_info_3=["김밥천국", "http://naver.me/GAn01waL", "분식류"];
 var rest_info_4=["레드컵스", "http://naver.me/GGu3JSjS", "닭강정"];
 var rest_info_5=["친친", "http://naver.me/5gxmrErP", "짬뽕, 짜장, 볶음밥"];
 var rest_info_6=["수해복", "http://naver.me/GxsERIKD", "마라탕"];
@@ -75,10 +75,10 @@ var rest_info_20=["맛닭꼬", "http://naver.me/58hlFSjm", "치킨"];
 var rest_info_21=["윤스쿡", "http://naver.me/5QxvDXBq", "덮밥, 볶음밥, 돈가스"];
 var rest_info_22=["쌈", "http://naver.me/GLYkAfMZ", "고기, 샤브샤브"];
 var rest_info_23=["착한족발", "http://naver.me/5bawPpxM", "족발"];
-var rest_info_24=["뚜레쥬르", "http://naver.me/5jWOqPS3", "샌드위치/토스트, 브리또, 빵, 샐러드"];
+var rest_info_24=["뚜레쥬르", "http://naver.me/5jWOqPS3", "샌드위치/토스트, 브리또, 빵"];
 var rest_info_25=["밥은", "http://naver.me/GOxkCikP", "컵밥, 덮밥, 볶음밥"];
-var rest_info_26=["김가네", "http://naver.me/51gxEmoS", "도시락, 라면, 우동, 김밥, 떡볶이, 칼국수, 비빔국수/쫄면, 냉면, 덮밥, 볶음밥, 만둣국/떡국, 찌개"];
-var rest_info_27=["그옛날 1947 왕만두", "http://naver.me/55XQV4TQ", "만두"];
+var rest_info_26=["김가네", "http://naver.me/51gxEmoS", "분식류"];
+var rest_info_27=["그옛날 1947 왕만두", "http://naver.me/55XQV4TQ", ""];
 var rest_info_28=["큰집닭강정", "http://naver.me/57pGatCc", "닭강정"];
 var rest_info_29=["미식성", "http://naver.me/FLSLKldW", "짬뽕, 짜장, 볶음밥"];
 var rest_info_30=["신연", "http://naver.me/5G4W5PQT", "마라탕"];
@@ -87,13 +87,13 @@ var rest_info_32=["로스2000", "http://naver.me/FtvFVC8n", "고기"];
 var rest_info_33=["이층집", "http://naver.me/5jW5Ypc4", "부대찌개"];
 var rest_info_34=["썬더치킨", "http://naver.me/GslvSHOc", "치킨"];
 var rest_info_35=["셰프의 돈까스", "http://naver.me/GAnvGK8D", "돈가스"];
-var rest_info_36=["브래댄코", "http://naver.me/GNKYArH4", "샌드위치/토스트, 브리또, 빵, 샐러드"];
+var rest_info_36=["브래댄코", "http://naver.me/GNKYArH4", "샌드위치/토스트, 브리또, 빵"];
 var rest_info_37=["마루", "http://naver.me/x01jGC2w", "컵밥"];
 var rest_info_38=["한솥", "http://naver.me/5w5LKodq", "도시락, 덮밥, 볶음밥, 찌개"];
 var rest_info_39=["진짜루", "http://naver.me/5vBvYkgr", "짬뽕, 짜장, 볶음밥"];
-var rest_info_40=["작은집", "http://naver.me/5zHIothl", "스파게티, 라면, 우동, 칼국수, 덮밥, 볶음밥, 죽, 만둣국/떡국, 찌개"];
+var rest_info_40=["작은집", "http://naver.me/5zHIothl", "스파게티, 죽, 분식류"];
 var rest_info_41=["피자헤븐", "http://naver.me/GWKMrUoW", "피자"];
-var rest_info_42=["디델리", "http://naver.me/xfh6OUSj", "라면, 우동, 김밥, 떡볶이, 비빔국수/쫄면, 덮밥, 볶음밥, 카레"];
+var rest_info_42=["디델리", "http://naver.me/xfh6OUSj", "카레, 분식류"];
 var rest_info_43=["진국", "http://naver.me/F1RCMJUN ", "냉면"];
 var rest_info_44=["월계숯불갈비", "http://naver.me/FsFAu1sE", "고기"];
 var rest_info_45=["놀부부대찌개", "http://naver.me/xUJCrz97", "부대찌개"];
@@ -106,15 +106,15 @@ var rest_info_51=["다이천", "http://naver.me/x1XT7U9Y", "김밥, 떡볶이, �
 var rest_info_52=["돈장군", "http://naver.me/x4c8VV3j", "고기"];
 var rest_info_53=["치킨플러스", "http://naver.me/xtbtXX2i", "치킨"];
 var rest_info_54=["고씨네", "http://naver.me/G9bysQQp", "돈가스, 카레"];
-var rest_info_55=["장수국수", "http://naver.me/5JYM77Me", "우동, 칼국수, 멸치국수, 비빔국수/쫄면"];
+var rest_info_55=["장수국수", "http://naver.me/5JYM77Me", "우동, 칼국수, 멸치국수, 쫄면"];
 var rest_info_56=["엽떡", "http://naver.me/FkpDdlQg", "떡볶이"];
-var rest_info_57=["언니떡볶이동생브리또", "http://naver.me/GP4LVVcc", "샌드위치/토스트, 브리또, 떡볶이"];
-var rest_info_58=["서초우동", "http://naver.me/FqVjMkDa", "라면, 우동, 멸치국수, 비빔국수/쫄면, 냉면"];
+var rest_info_57=["언니떡볶이동생브리또", "http://naver.me/GP4LVVcc", ""];
+var rest_info_58=["서초우동", "http://naver.me/FqVjMkDa", "우동, 멸치국수, 쫄면, 냉면"];
 var rest_info_59=["아그집", "http://naver.me/Gz7VH7ij", "덮밥, 볶음밥, 찌개"];
 var rest_info_60=["베트남노상", "http://naver.me/GFDkel2v", "덮밥, 볶음밥"];
 var rest_info_61=["삼대냉면", "http://naver.me/GVb3CsSY", "냉면"];
 var rest_info_62=["뚝배기", "http://naver.me/5df5yXRQ", "덮밥, 볶음밥, 찌개"];
-var rest_info_63=["후문식당", "http://naver.me/GKmKvGyB", "라면, 우동, 덮밥, 볶음밥, 만둣국/떡국, 찌개"];
+var rest_info_63=["후문식당", "http://naver.me/GKmKvGyB", "분식류"];
 var rest_info_64=["학땡", "http://naver.me/GGuLU1v5", "칼국수, 냉면, 찌개"];
 var rest_info_65=["끝집", "http://naver.me/GtjFmlJq", "도넛, 만두, 칼국수, 냉면"];
 var rest_info_66=["BBQ", "http://naver.me/x7tX0yfS", "치킨"];
@@ -124,14 +124,19 @@ var rest_info_69=["도미노", "http://naver.me/FLSLKXG5", "피자"];
 var rest_info_70=["화로상회", "http://naver.me/5sEan2d6", "고기"];
 var rest_info_71=["팔팔전어횟집", "http://naver.me/GYpBXW1I", "회"];
 
+function version_(){
+  document.all.version.innerHTML = "<p>ver.1.0(2020-11-13)<br>법학부 이시연, 이다영, 김혜미, 박지한</p>"
+}
+
 function print_listpage(){
   var list_HTML = ""
   for (var i = 0; i < rest_info_all.length; i++) {
     var arrayname = rest_info_all[i]
-    list_HTML = list_HTML + "<tr><td>"+ eval(arrayname)[0] +"</td></tr>"
+    list_HTML = list_HTML + '<div id="list_button"><div id="list_button_sentence" onclick="window.open('+"'"+eval(arrayname)[1]+"'"+')"><a>'+ eval(arrayname)[0] +'</a><h4>'+ eval(arrayname)[2] +'</h4></div></div>'
   }
-  document.all.rest_table.innerHTML = list_HTML
+  document.all.list_page_2nd.innerHTML = list_HTML
 }
+
 function move(n,m){
   n = n + Math.floor(Math.random()*m);
   location.replace( n +".html");
@@ -187,8 +192,4 @@ function url_3(){
 function loading_random(){
 	var gif_num = Math.floor(1+Math.random()*3);
 	document.all.loading.innerHTML = "<img src='random_"+gif_num+".gif'>"
-}
-function test(){
-	var i = 37
-	location.replace("question_1_1.html")
 }
